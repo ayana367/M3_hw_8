@@ -33,7 +33,7 @@ class FlowersAdapter(val data: ArrayList<Flowers>, val onClick: ( pos:Int)->Unit
     override fun getItemCount(): Int = data.size
 
 
-    inner class FlowerViewHolder(private val binding: com.example.m3_hw_8.databinding.FlowersChatBinding) :
+    inner class FlowerViewHolder(private val binding:FlowersChatBinding) :
         RecyclerView.ViewHolder(binding.root) {
         var my_img: ImageView? = null
         var txt_title: TextView? = null

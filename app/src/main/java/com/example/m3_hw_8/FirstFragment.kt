@@ -13,7 +13,7 @@ import com.example.m3_hw_8.databinding.FragmentFirstBinding
 class FirstFragment : Fragment() {
     private var data = arrayListOf<Flowers>()
 
-    private lateinit var binding: com.example.m3_hw_8.databinding.FragmentFirstBinding
+    private lateinit var binding: FragmentFirstBinding
 
 
 
